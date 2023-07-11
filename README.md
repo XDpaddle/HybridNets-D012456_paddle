@@ -22,7 +22,8 @@
 设置train.py中is_train参数为True。
 
 ### 权重文件
-权重文件可以从百度云中下载：https://pan.baidu.com/s/1VfsQ-XzXNHcDuAouyPBqog，提取码zo6w。测试图片与评估指标时分别将相应权重文件放在weights与checkpoints\bdd100k下，并修改测试代码中的load_weights参数使工程可以正确调用权重文件。如需使用预训练权重则应该将backbone.py中的use_pretrain参数设置为True，再将init_backbone函数中path参数改为对应主干网络权重的路径。
+权重文件可以从百度云中下载：https://pan.baidu.com/s/1VfsQ-XzXNHcDuAouyPBqog，提取码zo6w。
+测试图片与评估指标时分别将相应权重文件放在weights与checkpoints\bdd100k下，并修改测试代码中的load_weights参数使工程可以正确调用权重文件。如需使用预训练权重则应该将backbone.py中的use_pretrain参数设置为True，再将init_backbone函数中path参数改为对应主干网络权重的路径。
 
 
 ## 参考：
